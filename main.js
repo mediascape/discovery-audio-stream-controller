@@ -10,8 +10,6 @@ app.use('/radiodan',
 
 app.listen(port);
 
-app.use(express.static(__dirname + '/static'));
-
 mdns.advertise(radiodan, port);
 
 console.log('Listening on port '+port);
