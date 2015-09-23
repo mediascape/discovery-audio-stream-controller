@@ -14,6 +14,8 @@ See INSTALL.md for detailed dependencies.
 
 ## License
 
+(c) 2014 British Broadcasting Corporation and contributors
+
 Licensed under the Apache 2 License
 
 ## Authors
