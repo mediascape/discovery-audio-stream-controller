@@ -44,6 +44,7 @@ And then on all platforms:
 
     git clone https://github.com/mediascape/discovery-audio-stream-controller
     cd discovery-audio-stream-controller/
+    cp config/radiodan-config.json.example config/radiodan-config.json
     npm install
     npm start
 
