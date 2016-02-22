@@ -27,44 +27,26 @@ Click “launch” on MediaScape Discovery Helper
 
 <img src="doc/img/image05.png"/>
 
-## Install and run the "Radiodan" control interface and audio server
+## Install the "Radiodan" control interface app and audio server
 
-On a machine on the same network, install prerequisites:
+On a machine on the same network, install prerequisites.
 
-    mpd, node, zeromq, go
+On OS X:
 
-In one window:
+    brew install zmq mpd nodejs
 
-    mkdir go
-    export GOPATH=$PWD/go
-    export PATH=$PATH:$GOPATH/bin
-    mkdir -p $GOPATH/src/github.com/radiodan
-    cd $GOPATH/src/github.com/radiodan
-    git clone https://github.com/radiodan/broker
-    cd broker
-    go get github.com/tools/godep
-    $GOPATH/bin/godep restore
-    go install
-    cd ../../../../
-    ./bin/broker
+On raspbian/debian/ubuntu:
 
-in another:
+    apt-get install mpd libzmq3 libzmq3-dev nodejs
 
-    git clone https://github.com/radiodan/radiodan.js.git
-    cd radiodan.js/
-    git fetch origin
-    git checkout stable-v1
-    cp config.json.example config.json
-    npm install
-    ./bin/server config.json 
-
-In another:
+And then on all platforms:
 
     git clone https://github.com/mediascape/discovery-audio-stream-controller
     cd discovery-audio-stream-controller/
     npm install
-    node main.js
+    npm start
 
+## Running
 
 And after a few moments you should see the MDNS discovery update in the toolbar of the Chrome browser:
 
