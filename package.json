@@ -1,30 +1,34 @@
 {
-  "name": "radiodan-web-example",
-  "version": "0.1.0",
-  "description": "Radiodan example web app",
+  "name": "discovery-audio-stream-controller",
+  "version": "0.2.0",
+  "description": "Play audio streams via mdns discovery and Chrome apps",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon",
-    "test": "npm test"
+    "start": "node_modules/.bin/nf start",
+    "broker": "radiodan-broker",
+    "audio": "radiodan-server ../../config/radiodan-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/radiodan/client_web_example.git"
+    "url": "git@github.com:mediascape/discovery-audio-stream-controller.git"
   },
   "keywords": [
-    "radiodan"
+    "radiodan", "mdns"
   ],
   "author": "Dan Nuttall <dan.nuttall@bbc.co.uk>",
   "license": "Apache-2",
   "bugs": {
-    "url": "https://github.com/radiodan/client_web_example/issues"
+    "url": "https://github.com/mediascape/discovery-audio-stream-controller/issues"
   },
-  "homepage": "https://github.com/radiodan/client_web_example",
+  "homepage": "https://github.com/mediascape/discovery-audio-stream-controller/blob/master/INSTALL.md",
   "dependencies": {
-    "express": "^3.4.8",
-    "mdns": "^2.2.0",
+    "express": "~4.10.7",
+    "foreman": "~1.2.0",
     "radiodan": "^1.0.0",
+    "radiodan-broker": "^1.4.0",
     "radiodan-client": "^1.0.0",
+    "mdns": "^2.2.0",
     "avahi_pub": "https://github.com/TheThingSystem/node_avahi_pub/archive/master.tar.gz"
   },
   "devDependencies": {
