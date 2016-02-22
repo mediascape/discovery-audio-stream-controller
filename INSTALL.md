@@ -27,9 +27,10 @@ Click “launch” on MediaScape Discovery Helper
 
 <img src="doc/img/image05.png"/>
 
-## Install the "Radiodan" control interface app and audio server
+## Install the "Radiodan" and run control interface app and audio server
 
-On a machine on the same network, install prerequisites.
+This is an example application that responds to `_mediascape-http._tcp.local` and plays streams of audio.
+On a machine on the same network, install the prerequisites.
 
 On OS X:
 
