@@ -10,7 +10,9 @@ See INSTALL.md for detailed dependencies.
 
 ## Running
 
-`node main.js` or `foreman start`
+`cp config/radiodan-config.json.example config/radiodan-config.json`
+
+`npm start`
 
 ## License
 
