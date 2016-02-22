@@ -6,7 +6,7 @@ This application combines with the radiodan server to create a basic radio exper
 
 `npm install`
 
-See INSTALL.md for detailed dependencies.
+See [INSTALL.md](INSTALL.md) for detailed dependencies.
 
 ## Running
 
