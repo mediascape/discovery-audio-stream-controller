@@ -1,15 +1,24 @@
 var express  = require('express'),
-    app      = express(),
-    radiodan = require('radiodan-client'),
+    web      = express(),
+    client   = require('radiodan-client'),
     mdns     = require('./lib/mdns'),
     port     = process.env.WEB_PORT || 5000;
 
-app.use('/radiodan',
-  radiodan.middleware({crossOrigin: true})
+
+web.use('/radiodan',
+  client.middleware({
+    crossOrigin: true
+  })
 );
 
-app.listen(port);
+web.listen(port);
 
-mdns.advertise(radiodan, parseInt(port));
+var radiodan = client.create();
+
+var player_id = "main";
+
+var player = radiodan.player.get(player_id);
+
+mdns.advertise(player_id, client.utils, parseInt(port));
 
 console.log('Listening on port '+port);

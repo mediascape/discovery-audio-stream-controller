@@ -1,8 +1,5 @@
 {
   "dataPath": "/tmp/.radiodan",
-  "defaults": {
-    "music": "../audio"
-  },
   "players": [
     {
       "id": "main",
