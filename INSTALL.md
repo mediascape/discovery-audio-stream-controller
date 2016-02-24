@@ -15,17 +15,17 @@ Go to chrome://extensions in your Chrome browser (or open up the Chrome menu by 
 
 Ensure that the Developer mode checkbox in the top right-hand corner is checked.
 
-<img src="doc/img/image00.png" width="300px" />
+<img src="doc/img/image00.png" width="400px" />
 
 Click “Load unpacked extension...” to pop up a file-selection dialog.
 
 Navigate to the directory in which your extension files live, and select it. Do this for all three.
 
-<img src="doc/img/image02.png"/>
+<img src="doc/img/image02.png  width="400px" "/>
 
 Click “launch” on MediaScape Discovery Helper
 
-<img src="doc/img/image05.png"/>
+<img src="doc/img/image05.png"  width="400px" />
 
 ## Install the "Radiodan" and run control interface app and audio server
 
@@ -56,10 +56,10 @@ And after a few moments you should see the MDNS discovery update in the toolbar 
 
 Clicking on the name of the device takes you to a remote control page: 
 
-<img src="doc/img/image03.png"/>
+<img src="doc/img/image03.png"  width="400px" />
 
 which you can then use as a web-based remote control to control the audio coming through mpd on your computer:
 
-<img src="doc/img/image04.png"/>
+<img src="doc/img/image04.png"  width="400px" />
 
 
