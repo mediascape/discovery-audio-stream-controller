@@ -15,9 +15,9 @@ Go to chrome://extensions in your Chrome browser (or open up the Chrome menu by 
 
 Ensure that the Developer mode checkbox in the top right-hand corner is checked.
 
-<img src="doc/img/image00.png"/>
+<img src="doc/img/image00.png" width="300px" />
 
-Click “Load unpacked extension…” to pop up a file-selection dialog.
+Click “Load unpacked extension...” to pop up a file-selection dialog.
 
 Navigate to the directory in which your extension files live, and select it. Do this for all three.
 
