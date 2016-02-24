@@ -1,5 +1,9 @@
-This application was written as part of the MediaScape EU project, to demonstrate some 
-of the project's capabilities.
+This application was written as part of the MediaScape EU project, to demonstrate some of the project's 
+capabilities. The idea is that you can find controllable devices on the same network and send audio 
+streams to them using your browser. It uses mDNS in a Chrome app with a Chrome extension and a [Radiodan](http://radiodan.net/) 
+installed on the same network.
+
+See [a short blog post](http://www.bbc.co.uk/rd/blog/2014-09-control-radio-mediascape) for more detail
 
 To install it as a simple demonstration, do the following:
 
