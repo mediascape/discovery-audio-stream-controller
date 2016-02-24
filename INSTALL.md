@@ -21,7 +21,7 @@ Click “Load unpacked extension...” to pop up a file-selection dialog.
 
 Navigate to the directory in which your extension files live, and select it. Do this for all three.
 
-<img src="doc/img/image02.png  width="400px" "/>
+<img src="doc/img/image02.png"  width="400px" />
 
 Click “launch” on MediaScape Discovery Helper
 
